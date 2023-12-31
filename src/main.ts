@@ -1,8 +1,8 @@
 const check = document.querySelector("#check-btn") as HTMLButtonElement;
 const clear = document.querySelector("#clear-btn") as HTMLButtonElement;
-const form = document.querySelector("#form") as HTMLButtonElement;
+const form = document.querySelector("#form") as HTMLFormElement;
 const input = document.querySelector("#user-input") as HTMLInputElement;
-const result = document.querySelector("#results-div") as HTMLParagraphElement;
+const result = document.querySelector("#results-div") as HTMLDivElement;
 
 const handleCheck = (e: Event) => {
   e.preventDefault();
