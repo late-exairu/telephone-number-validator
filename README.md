@@ -1,16 +1,23 @@
-# Roman Numeral Converter
+# Telephone Number Validator
 
 ## Overview
 
-Welcome to the Roman Numeral Converter project! This application is designed to convert Arabic numerals to Roman numerals and vice versa. Roman numerals are a numeral system that originated in ancient Rome and were used throughout the Roman Empire. This project aims to provide a user-friendly interface for easy conversion between Arabic and Roman numerals.  
-Project is a part of JavaScript Algorithms and Data Structures Certification by [CodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/build-a-roman-numeral-converter-project/build-a-roman-numeral-converter).
+This project is a Telephone Number Validator, designed to check the validity of US phone numbers in various formats. The app ensures that the provided phone numbers adhere to the specified rules, including the requirement of an area code and confirmation of the country code (1).  
+Project is a part of JavaScript Algorithms and Data Structures Certification by [CodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/build-a-telephone-number-validator-project/build-a-telephone-number-validator).
 
 ## Features
 
-- Conversion from Arabic numerals to Roman numerals.
-- Follows the standard Roman numeral rules and symbols.
-- User-friendly interface for easy interaction.
+- Validates US phone numbers in different formats:
+  - 1 555-555-5555
+  - 1 (555) 555-5555
+  - 1(555)555-5555
+  - 1 555 555 5555
+  - 5555555555
+  - 555-555-5555
+  - (555)555-5555
+- Requires the presence of an area code.
+- Validates the country code, ensuring it is 1 if provided.
 
 ## Demo
 
-Check out the [live demo of the Roman Numeral Converter](https://late-exairu.github.io/roman-numeral-converter).
+For a live demonstration, visit [https://late-exairu.github.io/telephone-number-validator](https://late-exairu.github.io/telephone-number-validator).
